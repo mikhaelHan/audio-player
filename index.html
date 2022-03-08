@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Audio-player</title>
+	<link rel=" icon" href="assets/img/favicon_audio_player.svg">
+	<link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main>
+			<div class="player-container">
+				<section class="player-container__non-functional-part">
+				</section>
+				<section class="player-container__functional-part">
+					<div class="player-container__navi">
+						<button class="player-container__box-play">
+							<img class="image-play image-all" src="assets/img/music_play.svg" alt="play">
+						</button>
+						<button class="player-container__box-pause non-activ">
+							<img class="image-play image-all" src="assets/img/music_pause.svg" alt="play">
+						</button>
+						<div class="player-container__box-track-name">
+							<p class="player-container__singer">Prodigy</p>
+							<p class="player-container__track">Roadblox</p>
+						</div>
+						<div class="player-container__box-forward-back">
+							<button class="back-forward back">
+								<img src="assets/img/music_back.svg" class="back-forward__image image-all" alt="back">
+							</button>
+							<button class="back-forward forward">
+								<img src="assets/img/music_forward.svg" class="back-forward__image image-all" alt="forward">
+							</button>
+						</div>
+					</div>
+					<div class="player-container__condition">
+						<audio class="audio" src="assets/muz/0.mp3"></audio>
+						<div class="condition-current-time"></div>
+						<div class="condition-all-progress">
+							<div class="condition-all-progress__progress"></div>
+						</div>
+						<div class="condition-all-time"></div>
+						</progress>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+			<div class="footer-container">
+				<section class="footer-left">
+					<a class="footer-left__link" href="https://github.com/mikhaelHan?tab=repositories" target="_blank"
+						rel="noopener noreferrer">
+						<img class="footer-left__icon" src="assets/img/github.png" alt="GitHub">My GitHub
+					</a>
+				</section>
+				<section class="footer-center">
+					<div class="footer-center__year">2022</div>
+				</section>
+				<section class="footer-right">
+					<a class="footer-right__link" href="https://app.rs.school" target="_blank" rel="noopener noreferrer">
+						<img class="footer-right__icon" src="assets/img/rs_school_js.svg" alt="RS School"></a>
+				</section>
+			</div>
+		</footer>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
